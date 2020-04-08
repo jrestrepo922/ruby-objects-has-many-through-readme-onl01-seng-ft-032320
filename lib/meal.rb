@@ -20,5 +20,5 @@ class Meal
     @@all
   end
 
-  
+
 end
