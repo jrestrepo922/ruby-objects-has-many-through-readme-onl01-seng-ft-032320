@@ -13,4 +13,8 @@ class Customer
     @@all
   end
 
+  #we do not need to use customer as an argument cause we are using self 
+  def new_meal(waiter, total, tip=0) 
+    Meal.new(waiter, self, total, tip)
+  end 
 end
